@@ -111,6 +111,32 @@ h3,
   transform: translateY(-1px);
 }
 
+.developer-credit {
+  position: fixed;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  z-index: 110;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(3, 10, 14, 0.85);
+  border: 1px solid rgba(110, 231, 183, 0.18);
+  color: var(--text);
+  font-size: 0.85rem;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.developer-credit a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.developer-credit a:hover {
+  text-decoration: underline;
+}
+
 .guide-kicker {
   font-size: 0.75rem;
   font-weight: 700;
